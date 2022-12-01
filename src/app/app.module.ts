@@ -11,7 +11,6 @@ import { MainComponentComponent } from './mainpage/main-component/main-component
 import { ReactiveFormsModule } from '@angular/forms';
 import { MlsrvcService } from './mlsrvc.service';
 import { NgxSpinnerModule } from 'ngx-spinner';
-import { EditComponentComponent } from './mainpage/edit-component/edit-component.component';
 import { DialogConfirm } from './dialog/dialog_confirm'
 
 @NgModule({
@@ -20,7 +19,6 @@ import { DialogConfirm } from './dialog/dialog_confirm'
     HeaderComponentComponent,
     MainComponentComponent,
     DialogConfirm,
-    EditComponentComponent
   ],
   imports: [
     BrowserModule,
